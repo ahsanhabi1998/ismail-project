@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(bg.webp);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.menu{
+    text-align: center;
+    background-color: green;
+    /* height: 50px; */
+   
+}
+
+.menu ul{
+    
+    /* display: inline-flex;
+    list-style: none; */
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+    
+}
+
+.menu ul li {
+    
+    /* width: 120px;
+    margin: 15px; */
+    padding:15px;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+    
+
+.active,.menu >ul >li :hover{
+    background-color:#2bab0d;
+    border-radius: 20px;
+    padding: 10px 25px 10px  25px ;
+    
+}
+
+
+/*/////////// Media Query phone size  */
+
+@media screen and (max-width:600px){
+.menu ul{
+    display: grid;
+    /* grid-template-columns: auto; */
+    /* grid-template-rows: auto; */
+}
+}
+@media screen and (max-width:600px) {
+    .menu ul li a {
+        font-weight: bold;
+        color:blue;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:700px){
+    .menu{
+        background-image: url(bg.webp);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-family: sans-serif;
+      
+       
+    }
+}
