@@ -24,7 +24,7 @@ body{
     /* display: inline-flex;
     list-style: none; */
      display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
     list-style: none;
     
@@ -57,20 +57,20 @@ body{
 /*/////////// Media Query phone size  */
 
 @media screen and (max-width:600px){
-.menu ul{
+.menu ul {
     display: grid;
-    /* grid-template-columns: auto; */
-    /* grid-template-rows: auto; */
 }
 }
+
 @media screen and (max-width:600px) {
     .menu ul li a {
         font-weight: bold;
         color:blue;
         font-size: 1.5rem;
+        
     }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:600px){
     .menu{
         background-image: url(bg.webp);
         background-size: cover;
